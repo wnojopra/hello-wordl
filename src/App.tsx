@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App-container">
       <h1>
-        <span style={hard ? { color: "#e66" } : {}}>hell</span>o wordl
+        <span style={hard ? { color: "#e66" } : {}}>willy</span>n wordl
       </h1>
       <div className="top-right">
         {page !== "game" ? (

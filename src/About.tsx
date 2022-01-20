@@ -6,6 +6,13 @@ export function About() {
   return (
     <div className="App-about">
       <p>
+        <i>willyn wordl</i> is a fork of {" "}
+        <a href="https://github.com/lynn/hello-wordl">
+          <i>hello wordl</i>
+        </a>{" "}
+        by <a href="https://twitter.com/chordbug">lynn</a>
+      </p>
+      <p>
         <i>hello wordl</i> is a remake of the word game{" "}
         <a href="https://www.powerlanguage.co.uk/wordle/">
           <i>Wordle</i>
@@ -72,13 +79,7 @@ export function About() {
       />
       <p>
         Report issues{" "}
-        <a href="https://github.com/lynn/hello-wordl/issues">here</a>, or tweet{" "}
-        <a href="https://twitter.com/chordbug">@chordbug</a>.
-      </p>
-      <p>
-        This game will be free and ad-free forever,
-        <br />
-        but you can <a href="https://ko-fi.com/chordbug">buy me a coffee</a> if you'd like.
+        <a href="https://github.com/wnojopra/hello-wordl/issues">here</a>
       </p>
     </div>
   );
